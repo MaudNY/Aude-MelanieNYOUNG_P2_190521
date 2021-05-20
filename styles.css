@@ -1,21 +1,64 @@
-@font-face { /* Police du site Reservia */
+@font-face { /* Police générique du site Reservia */
     font-family: 'Raleway-Regular';
     src: url('police/Raleway-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
-* /* Utilisation de la police Raleway sur toutes les balises du site */
-{
-    font-family: 'Raleway-Regular', Arial, serif;
+@font-face { /* Police des titres du site Reservia */
+    font-family: 'Raleway-ExtraBold';
+    src: url('police/Raleway-ExtraBold.ttf');
+    font-weight: bold;
+    font-style: normal;
 }
 
-h1
+.euro
 {
-    font-size: 2.1ex;
-    font-weight: bolder;
+    font-weight: bold;
+}
+
+h1, h2
+{
+    font-family: 'Raleway-ExtraBold', Arial, serif;
+    font-size: 3.1ex;
 }
 
 span[class="sous-titre"]
 {
+    font-family: 'Raleway-Regular', Arial, serif;
     font-size: 1.4ex;
+    font-weight: lighter;
+}
+
+span[class="filtres"]
+{
+    font-family: 'Raleway-ExtraBold', Arial, serif;
+    font-size: 2.5ex;
+}
+
+h2
+{
+    border: 3px #f2f2f2 solid;
+    border-radius: 20px / 10px;
+    background-color: #F2F2F2
+}
+
+h3
+{
+    font-family: 'Raleway-ExtraBold', Arial, serif;
+    font-size: 2.5ex;
+}
+
+span[class="prix-nuit"]
+{
+    font-family: 'Raleway-Regular', Arial, serif;
+    font-size: 1.7ex;
+    font-weight: lighter;
+}
+
+p
+{
+    font-family: 'Raleway-Regular', Arial, serif;
+    font-size: 2.1ex;
     font-weight: lighter;
 }
