@@ -1,0 +1,21 @@
+@font-face { /* Police du site Reservia */
+    font-family: 'Raleway-Regular';
+    src: url('police/Raleway-Regular.ttf');
+}
+
+* /* Utilisation de la police Raleway sur toutes les balises du site */
+{
+    font-family: 'Raleway-Regular', Arial, serif;
+}
+
+h1
+{
+    font-size: 2.1ex;
+    font-weight: bolder;
+}
+
+span[class="sous-titre"]
+{
+    font-size: 1.4ex;
+    font-weight: lighter;
+}
