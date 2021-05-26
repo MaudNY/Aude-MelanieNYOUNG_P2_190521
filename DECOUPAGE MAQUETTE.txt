@@ -24,15 +24,14 @@
     - 4 blocks de "Composant 1"(= Icône + texte)
 - Texte : "Plus de 500 logements sont disponibles dans cette ville"
 
-.BLOCK ASIDE "Les plus populaires"
-- H3 : Les plus populaires
-- 3 blocks de type "Composant 2" (= Image à gauche + Titre H4 + texte descriptif + 5 icônes "étoiles")
-
-
-.BLOCK SECTION "Hébergements à Marseille"
-- H3 : Hébergements à Marseille
-- 6 blocks de type "Composant 3" (= Image en haut + Titre H4 + texte descriptif + 5 icônes "étoiles")
-- Texte "Afficher plus"
+.BLOCK SECTION "Populaires + Hébergements Marseille"
+- Block ASIDE "Les plus populaires"
+    - H3 : Les plus populaires
+    - 3 blocks de type "Composant 2" (= Image à gauche + Titre H4 + texte descriptif + 5 icônes "étoiles")
+- Block SECTION "Hébergements à Marseille"
+    - H3 : Hébergements à Marseille
+    - 6 blocks de type "Composant 3" (= Image en haut + Titre H4 + texte descriptif + 5 icônes "étoiles")
+    - Texte "Afficher plus"
 
 .BLOCK SECTION "Activités à Marseille"
 - H3 : Activités à Marseille
