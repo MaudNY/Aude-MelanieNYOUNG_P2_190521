@@ -1,0 +1,44 @@
+- HEAD -
+...(Méta-données)...
+
+- BODY -
+
+.BLOCK HEADER
+- Logo reservia
+- Block NAV "Menu de navigation" avec :
+    - Composant "Hébergements"
+    - Composant "Activités"
+    - Composant "S'inscrire"
+
+.BLOCK SECTION "Description du site"
+- H1 : Trouvez votre hébergement pour des vacances de rêve
+- Texte : En plein centre-ville ou en pleine nature
+
+.BLOCK SECTION "Recherche / Formulaire"
+- Composant "Recherche textuelle"
+    - Icône "Marker"
+    - Champs de recherche
+    - Icône "Loupe"
+- Block "FILTRES"
+    - H2 : Filtres
+    - 4 blocks de "Composant 1"(= Icône + texte)
+- Texte : "Plus de 500 logements sont disponibles dans cette ville"
+
+.BLOCK ASIDE "Les plus populaires"
+- H3 : Les plus populaires
+- 3 blocks de type "Composant 2" (= Image à gauche + Titre H4 + texte descriptif + 5 icônes "étoiles")
+
+
+.BLOCK SECTION "Hébergements à Marseille"
+- H3 : Hébergements à Marseille
+- 6 blocks de type "Composant 3" (= Image en haut + Titre H4 + texte descriptif + 5 icônes "étoiles")
+- Texte "Afficher plus"
+
+.BLOCK SECTION "Activités à Marseille"
+- H3 : Activités à Marseille
+- 6 blocks de type "Composant 4" (= Image en haut + Titre H4)
+
+.BLOCK FOOTER
+- Block "A propos"
+- Block "Nos hébergements"
+- Block "Assistance"
