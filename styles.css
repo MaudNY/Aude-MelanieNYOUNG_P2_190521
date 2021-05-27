@@ -38,25 +38,10 @@ h1, h2, h3, h4, h5
 
 /* SECTION ACTIVITES A MARSEILLE */
 
-#section-activités
-{
-    margin: 75px 70px 75px 70px
-}
-
 h3
 {
     font-size: 3em;
     margin: 48px 0 72px 0;
-}
-
-.block-act, .block-act a, .block-act a p, .block-act a p img
-{
-    width: 840px;
-    height: 485px;
-    max-width: 840px;
-    max-height: 608px;
-    border-radius: 65px;
-    box-shadow: 0px 1px 10px #f2f2f2;
 }
 
 h4
@@ -72,6 +57,26 @@ h4
     border-radius: 0px 0px 65px 65px;
     background-color: white;
     box-shadow: 1px 10px 10px #f2f2f2;    
+}
+
+#section-activités
+{
+    margin: 75px 70px 75px 70px
+}
+
+.block-act
+{
+    margin-bottom: 75px;
+}
+
+.block-act, .block-act a, .block-act a p, .block-act a p img
+{
+    width: 840px;
+    height: 485px;
+    max-width: 840px;
+    max-height: 608px;
+    border-radius: 65px;
+    box-shadow: 0px 1px 10px #f2f2f2;
 }
 
 /* PIED-DE-PAGE */
