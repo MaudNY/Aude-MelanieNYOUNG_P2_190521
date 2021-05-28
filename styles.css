@@ -12,48 +12,76 @@
     font-style: normal;
 }
 
-/* Eléments génériques */
+/* Eléments génériques de la page */
 
-body, p, ul
+body, p, a
 {
     font-family: Raleway-Regular, serif, Arial;
     margin: 0 0 0 0;
+    text-decoration-line: none;
+}
+
+section, #pieddepage
+{
+    padding: 75px 60px 75px 60px;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-family: Raleway-ExtraBold, serif, Arial;
+    color: #000000;
 }
 
 ul
 {
+    font-family: Raleway-Regular, serif, Arial;
     list-style-type: none;
+    text-decoration-line: none;
     padding-left: 0px;
-}
-
-h1, h2, h3, h4, h5, .bold
-{
-    font-family: Raleway-ExtraBold, serif, Arial;
 }
 
 /* EN-TÊTE */
 
-#menu-nav
+img
+{
+    width: 250px;
+}
+
+nav ul
 {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: flex-end;
+    float: inherit;
 }
 
-#menu-nav li
+nav li
 {
-    font-size: 2.6em;
-    text-align: center;
-    color: #f2f2f2;
+    font-size: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 50%;
-    height: 50%;
 }
 
 .bouton-bordure
 {
-    border-bottom: 10px solid #f2f2f2;
+    border-bottom: 8px solid #f2f2f2;
+    padding-bottom: 35px;
+    text-align: center;
+    color: black;
+    clear:left;
+}
+
+.bouton-insc
+{
+    font-family: Raleway-ExtraBold, serif, Arial;;
+    color: #0065fc;
+    text-align: right;
+}
+
+.bouton-insc a
+{
+    padding-right: 60px;
 }
 
 /* SECTION ACTIVITES A MARSEILLE */
@@ -67,7 +95,6 @@ h3
 h4
 {
     font-size: 2.6em;
-    color: #000000;
     position: relative;
     bottom: 135px;
     width: 770px;
@@ -77,11 +104,6 @@ h4
     border-radius: 0px 0px 65px 65px;
     background-color: white;
     box-shadow: 1px 10px 10px #f2f2f2;    
-}
-
-#section-activités
-{
-    margin: 75px 70px 75px 70px
 }
 
 .block-act
@@ -113,11 +135,6 @@ h5
     margin-block-end: 0px;
     padding-top: 40px;
     padding-bottom: 40px;
-}
-
-#pieddepage
-{
-    padding: 75px 70px 75px 70px;
 }
 
 .liste-pdp
