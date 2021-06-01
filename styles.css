@@ -27,10 +27,17 @@ body, p, a
     padding: 4.7em 3.8em 4.7em 3.8em;
 }
 
-h1, h2, h3, h4, h5
+h1, h2, h3, h4, h5, .bold
 {
     font-family: Raleway-ExtraBold, serif, Arial;
     color: #000000;
+}
+
+h3
+{
+    font-size: 3em;
+    margin-block-start: 0;
+    margin-block-end: 1.5em;
 }
 
 ul
@@ -100,33 +107,60 @@ header
     border-bottom: 0.2em #f2f2f2 solid;
 }
 
-/* SECTION ACTIVITES A MARSEILLE */
+/* SECTION HEBERGEMENTS A MARSEILLE */
 
-#section-act
+#section-heb
 {
     margin-top: 24em;
     padding: 0 3.8em 4.7em 3.8em;
 }
 
-h3
+.block-heb
 {
-    font-size: 3em;
-    margin-block-start: 0;
-    margin-block-end: 1.5em;
+    margin-bottom: 4.7em;
+    width: 100%;
+    height: 31em;
+    border-radius: 65px;
+    border: 3px #f2f2f2 solid;
+    box-shadow: 10px 10px 20px #f2f2f2;
 }
 
-h4
+.block-heb a img
 {
-    padding: 1em 0 0 1.25em;
+    width: 98%;
+    height: 55%;
+    border-radius: 65px 65px 0 0;
+    margin: 0.5em 0.5em 0 0.5em;
+}
+
+.block-heb h4
+{
+    font-size: 2.8em;
+    padding: 0.6em 0 0 0.94em;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.block-heb p
+{
+    font-size: 2.3em;
+    padding: 0.3em 0 0 1.1em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* SECTION ACTIVITES A MARSEILLE */
+
+#section-act
+{
+    padding: 0 3.8em 4.7em 3.8em;
 }
 
 .block-act
 {
     margin-bottom: 4.7em;
     border: 3px #f2f2f2 solid;
-    box-shadow: 0px 1px 20px #f2f2f2;
+    box-shadow: 10px 10px 20px #f2f2f2;
 }
 
 .block-act, .block-act a img
@@ -146,14 +180,20 @@ h4
 {
     font-size: 2.6em;
     position: relative;
-    bottom: 3.2em;
+    left: 0.01em;
+    bottom: 3em;
     width: 100%;
     height: 3em;
     margin: 0 0 0 0;
-    border: 3px #f2f2f2 solid;
     border-radius: 0 0 65px 65px;
     background-color: white;
-    box-shadow: 0px 1px 20px #f2f2f2;
+}
+
+.block-act h4
+{
+    padding: 1em 0 0 1.25em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .cover
