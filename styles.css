@@ -22,7 +22,7 @@ body, p, a
     text-decoration-line: none;
 }
 
-#section-act, #pieddepage
+#pieddepage
 {
     padding: 4.7em 3.8em 4.7em 3.8em;
 }
@@ -104,42 +104,61 @@ header
 
 #section-act
 {
-    padding-top: 350px;
+    margin-top: 24em;
+    padding: 0 3.8em 4.7em 3.8em;
 }
 
 h3
 {
     font-size: 3em;
-    margin: 48px 0 72px 0;
+    margin-block-start: 0;
+    margin-block-end: 1.5em;
 }
 
 h4
 {
-    font-size: 2.6em;
-    position: relative;
-    bottom: 135px;
-    width: 770px;
-    height: 100px;
-    margin: 0 0 0 0;
-    padding: 50px 0 0 70px;
-    border-radius: 0px 0px 65px 65px;
-    background-color: white;
-    box-shadow: 1px 10px 10px #f2f2f2;    
+    padding: 1em 0 0 1.25em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .block-act
 {
-    margin-bottom: 75px;
+    margin-bottom: 4.7em;
+    border: 3px #f2f2f2 solid;
+    box-shadow: 0px 1px 20px #f2f2f2;
 }
 
-.block-act, .block-act a, .block-act a p, .block-act a p img
+.block-act, .block-act a img
 {
-    width: 840px;
-    height: 485px;
-    max-width: 840px;
-    max-height: 608px;
+    width: 100%;
+    height: 31em;
     border-radius: 65px;
-    box-shadow: 0px 1px 10px #f2f2f2;
+}
+
+.block-act a
+{
+    width: 100%;
+    height: auto;
+}
+
+.block-titre-h4
+{
+    font-size: 2.6em;
+    position: relative;
+    bottom: 3.2em;
+    width: 100%;
+    height: 3em;
+    margin: 0 0 0 0;
+    border: 3px #f2f2f2 solid;
+    border-radius: 0 0 65px 65px;
+    background-color: white;
+    box-shadow: 0px 1px 20px #f2f2f2;
+}
+
+.cover
+{
+    object-fit: cover;
 }
 
 /* PIED-DE-PAGE */
