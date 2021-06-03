@@ -144,7 +144,6 @@ header
     border-radius: 40px 40px 40px 40px;
     border: 2.5px black solid;
     display: flex;
-    flex-wrap: nowrap;
 }
 
 #block-loc
@@ -156,34 +155,47 @@ header
     text-align: center;
 }
 
-#block-loc .fas
+#block-loc .fas, #block-rech .fas
 {
     font-size: 4em;
-    margin-top: 24.9%;
+    padding-top: 0.5em;
 }
 
-#bloc-form form p
+#bloc-form
 {
     width: 100%;
     height: auto;
     font-size: 50em;
-    background-color: purple;
     border-radius: 0 40px 40px 0;
+}
+
+#block-form p
+{
+    margin-block-end: 0;
+}
+
+#block-form2
+{
+    width: 100%;
+    height: 100%;
+    font-family: Raleway-ExtraBold, serif, Arial;
+    color: #000000;
+    font-size: 2.5em;
+    padding: 0.9em 0 0.9em 0.5em;
+}
+
+#block-form2::placeholder
+{
+    color: #e9e6e6;
 }
 
 #block-rech
 {
-    width: 15%;
-    height: 100%;    
+    width: 8em;
+    height: 7.85em;    
     background-color: #0065fc;
     border-radius: 40px;
     text-align: center;
-}
-
-#block-rech .fas
-{
-    font-size: 4em;
-    margin-top: 24.9%;
 }
 
 /* ASIDE LES PLUS POPULAIRES */
