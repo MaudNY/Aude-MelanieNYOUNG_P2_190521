@@ -168,18 +168,21 @@ aside
     float: left;
 }
 
-.block-pop-desc
+.block-pop .block-pop-desc
 {
-    width: 28em;
-    height: 22.5em;
-    padding: 2.9em 0 0 25.75em;
+    width: 53%;
+    height: 100%;
     margin-top: 0;
     margin-bottom: 0;
+    background-color:white;
+    border-radius: 0 65px 65px 0;
+    float: right;
 }
 
 .block-pop-desc h4
 {
     font-size: 2.8em;
+    padding-top: 1em;
     margin-block-start: 0;
     margin-block-end: 0;
 }
