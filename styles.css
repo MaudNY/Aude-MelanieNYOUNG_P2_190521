@@ -275,7 +275,31 @@ h2
     width: auto;
     height: auto;
     font-size: 2.8em;
-    padding-top: 0.65em;
+    padding-top: 0.75em;
+}
+
+#info-ville
+{
+    display: flex;
+}
+
+#info-ville .fas
+{
+    position: relative;
+    top: 0.5em;
+    width: 0.5em;
+    height: 1.5em;
+    font-size: 2.15em;
+    text-align: center;
+    background-color: white;
+    padding: 0 0.5em 0 0.5em;
+    border: 1px #dfdddd solid;
+    border-radius: 1000px;
+}
+
+#txt-info
+{
+    font-size: auto;
 }
 
 /* ASIDE LES PLUS POPULAIRES */
@@ -283,6 +307,7 @@ h2
 aside
 {
     padding: 0 0 0 0;
+    margin-bottom: 6em;
     background-color: #f2f2f2;
 }
 
