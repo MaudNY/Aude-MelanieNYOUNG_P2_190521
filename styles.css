@@ -27,7 +27,7 @@ body, p, a
     padding: 4.7em 3.8em 4.7em 3.8em;
 }
 
-h1, h2, h3, h4, h5, .bold
+h1, h2, h3, h4, h5, .bold, .nom-filtre
 {
     font-family: Raleway-ExtraBold, serif, Arial;
     color: #000000;
@@ -129,7 +129,7 @@ header
     margin-block-end: 0.6em;
 }
 
-#section-form p
+#sous-titre
 {
     font-size: 1em;
     margin-bottom: 5.5em;
@@ -144,11 +144,6 @@ header
     border-radius: 40px 40px 40px 40px;
     border: 2.5px #f2f2f2 solid;
     display: flex;
-}
-
-#block-form:nth-child(2)
-{
-    flex: 1;
 }
 
 #block-loc
@@ -177,6 +172,11 @@ header
     border-radius: 0 40px 40px 0;
 }
 
+#block-form:nth-child(2)
+{
+    flex: 1;
+}
+
 #block-form p
 {
     margin-block-end: 0;
@@ -199,6 +199,11 @@ header
     color: #a8a8a8;
 }
 
+#block-form2:focus
+{
+    outline: none;
+}
+
 #block-rech
 {
     position: relative;
@@ -210,6 +215,67 @@ header
     border: 5px #0065fc solid;
     border-radius: 40px;
     text-align: center;
+}
+
+h2
+{
+    margin: 0 0 1.5em 0;
+}
+
+#liste-filtres
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#filtre
+{
+    height: auto;
+    border: 4px #dfdddd solid;
+    border-radius: 1000px;
+    margin: 0 3em 2em 0;
+    display: flex;
+}
+
+.filtre-éco
+{
+    width: 26em;
+}
+
+.filtre-fam
+{
+    width: 20em;
+}
+
+.filtre-rom
+{
+    width: 26em;
+}
+
+.filtre-anim
+{
+    width: 34.5em;
+}
+
+#filtre .fas
+{
+    position: relative;
+    right: 0.5em;
+    width: 2em;
+    height: 2em;
+    font-size: 2.5em;
+    text-align: center;
+    background-color: #deebff;
+    padding: 1em 0.5em 0 0.5em;
+    border-radius: 1000px;
+}
+
+.nom-filtre
+{
+    width: auto;
+    height: auto;
+    font-size: 2.8em;
+    padding-top: 0.65em;
 }
 
 /* ASIDE LES PLUS POPULAIRES */
