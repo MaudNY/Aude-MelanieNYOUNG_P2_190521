@@ -139,19 +139,27 @@ header
 {
     width: 99%;
     height: 7.75em;
-    background-color: red;
-    margin: 2em 0 2em 0;
+    background-color: white;
+    margin: 0 0 5.5em 0;
     border-radius: 40px 40px 40px 40px;
-    border: 2.5px black solid;
+    border: 2.5px #f2f2f2 solid;
     display: flex;
+}
+
+#block-form:nth-child(2)
+{
+    flex: 1;
 }
 
 #block-loc
 {
+    position: relative;
+    bottom: 0.2em;
     width: 15%;
     height: 100%;
     background-color: #f2f2f2;
     border-radius: 40px 0 0 40px;
+    border: 2px #f2f2f2 solid;
     text-align: center;
 }
 
@@ -180,20 +188,26 @@ header
     height: 100%;
     font-family: Raleway-ExtraBold, serif, Arial;
     color: #000000;
+    border: none;
     font-size: 2.5em;
-    padding: 0.9em 0 0.9em 0.5em;
+    padding: 0.95em 0.5em 0.95em 0.2em;
 }
 
 #block-form2::placeholder
 {
-    color: #e9e6e6;
+    font-family: Raleway-Regular, serif, Arial;
+    color: #a8a8a8;
 }
 
 #block-rech
 {
+    position: relative;
+    left: 0.5em;
+    bottom: 0.35em;
     width: 8em;
     height: 7.85em;    
     background-color: #0065fc;
+    border: 5px #0065fc solid;
     border-radius: 40px;
     text-align: center;
 }
