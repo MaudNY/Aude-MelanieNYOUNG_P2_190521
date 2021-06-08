@@ -53,6 +53,26 @@ ul
     object-fit: cover;
 }
 
+.blue-icon
+{
+    color: #0065FC;
+}
+
+.grey-icon
+{
+    color: #e9e6e6;
+}
+
+.black-icon
+{
+    color: black;
+}
+
+.white-icon
+{
+    color: white;
+}
+
 /* EN-TÊTE */
 
 header
@@ -228,7 +248,7 @@ h2
     flex-wrap: wrap;
 }
 
-#filtre
+.filtre
 {
     height: auto;
     border: 4px #dfdddd solid;
@@ -257,7 +277,7 @@ h2
     width: 34.5em;
 }
 
-#filtre .fas
+.filtre .fas
 {
     position: relative;
     right: 0.5em;
