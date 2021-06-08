@@ -14,12 +14,17 @@
 
 /* Eléments génériques de la page */
 
-body, p, a
+body, p, a, input
 {
     font-family: Raleway-Regular, serif, Arial;
     margin: 0 0 0 0;
     color: black;
     text-decoration-line: none;
+}
+
+body
+{
+    box-sizing: border-box;
 }
 
 #pieddepage
@@ -83,7 +88,7 @@ header
     right: 0;
     width: auto;
     height: auto;
-    padding: 3.8em 0 0 0;
+    padding: 1.65em 0 0 0;
     background-color: white;
     z-index: 9999;
 }
@@ -92,22 +97,25 @@ header
 {
     display: flex;
     justify-content: space-between;
-    padding: 0 3.8em 2.8em 3.8em;
+    padding: 0 1.5em 1.73em 1.5em;
     width: auto;
     height: auto;
 }
 
 #logo
 {
-    width: 30%;
-    height: 20%;
+    min-width: 20%;
+    min-height: 20%;
 }
 
 #bouton-insc
 {
-    font-size: 2.7em;
+    min-width: 20%;
+    min-height: 20%;
+    font-size: 1em;
     font-family: Raleway-ExtraBold, serif, Arial;
     color: #0065FC;
+    text-align: right;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -122,7 +130,6 @@ header
 
 .ancre-header
 {
-    font-size: 2.7em;
     color: black;
     width: 50%;
     margin-top: auto;
@@ -138,58 +145,51 @@ header
 {
     width: auto;
     height: auto;
-    margin: 25.75em 0 6em 0;
-    padding: 0 3.8em 0 3.8em;
+    margin: 10.1em 0 6em 0;
+    padding: 0 1.25em 0 1.25em;
 }
 
-#section-form h1
+h1
 {
-    font-size: 3.25em;
-    margin-block-start: 0;
-    margin-block-end: 0.6em;
+    font-size: 1.4em;
+    margin: 0 0 0.65em 0;
 }
 
 #sous-titre
 {
-    font-size: 1em;
-    margin-bottom: 5.5em;
+    margin: 0 0 2.2em 0;
 }
 
 #block-form-complet
 {
-    width: 99%;
-    height: 7.75em;
-    background-color: white;
-    margin: 0 0 5.5em 0;
-    border-radius: 40px 40px 40px 40px;
-    border: 2.5px #f2f2f2 solid;
+    width: 100%;
+    height: auto;
+    margin: 0 0 2em 0;
+    border: 1px#f2f2f2 solid;
+    border-radius: 15px;
     display: flex;
+}
+
+#block-form-complet .fas
+{
+    font-size: 1.5em;
 }
 
 #block-loc
 {
-    position: relative;
-    bottom: 0.2em;
     width: 15%;
-    height: 100%;
-    background-color: #f2f2f2;
-    border-radius: 40px 0 0 40px;
-    border: 2px #f2f2f2 solid;
-    text-align: center;
-}
-
-#block-loc .fas, #block-rech .fas
-{
-    font-size: 4em;
-    padding-top: 0.5em;
-}
-
-#bloc-form
-{
-    width: 100%;
     height: auto;
-    font-size: 50em;
-    border-radius: 0 40px 40px 0;
+    background-color: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+    text-align: center;
+    padding: 0.5em 0 0.5em 0;
+}
+
+
+#block-form
+{
+    width: auto;
+    height: auto;
 }
 
 #block-form:nth-child(2)
@@ -197,44 +197,33 @@ header
     flex: 1;
 }
 
-#block-form p
+#block-form input
 {
-    margin-block-end: 0;
-}
-
-#block-form2
-{
-    width: 100%;
+    width: auto;
     height: 100%;
-    font-family: Raleway-ExtraBold, serif, Arial;
-    color: #000000;
+    font-size: 1.15em;
+    font-weight: bold;
+    padding: 0 0 0 0.5em;
     border: none;
-    font-size: 2.5em;
-    padding: 0.95em 0.5em 0.95em 0.2em;
+    outline: none;
 }
 
-#block-form2::placeholder
+input::placeholder
 {
+    font-size: 0.75em;
+    font-weight: normal;
     font-family: Raleway-Regular, serif, Arial;
     color: #a8a8a8;
 }
 
-#block-form2:focus
-{
-    outline: none;
-}
-
 #block-rech
 {
-    position: relative;
-    left: 0.5em;
-    bottom: 0.35em;
-    width: 8em;
-    height: 7.85em;    
-    background-color: #0065fc;
-    border: 5px #0065fc solid;
-    border-radius: 40px;
+    width: 15%;
+    height: 100%;
+    background-color: #0065FC;
+    border-radius: 15px;
     text-align: center;
+    padding: 0.75em 0 0.75em 0;
 }
 
 h2
@@ -257,33 +246,12 @@ h2
     display: flex;
 }
 
-.filtre-éco
-{
-    width: 26em;
-}
-
-.filtre-fam
-{
-    width: 20em;
-}
-
-.filtre-rom
-{
-    width: 26em;
-}
-
-.filtre-anim
-{
-    width: 34.5em;
-}
-
 .filtre .fas
 {
     position: relative;
     right: 0.5em;
     width: 2em;
     height: 2em;
-    font-size: 2.5em;
     text-align: center;
     background-color: #deebff;
     padding: 1em 0.5em 0 0.5em;
@@ -294,7 +262,6 @@ h2
 {
     width: auto;
     height: auto;
-    font-size: 2.8em;
     padding-top: 0.75em;
 }
 
@@ -346,14 +313,13 @@ aside
 
 #titre-pop h3
 {
-    font-size: 3.75em;
+    font-size: 1em;
     padding-top: auto;
     padding-bottom: auto;
 }
 
 #titre-pop .fas
 {
-    font-size: 4em;
     padding-top: auto;
     padding-bottom: auto;
 }
@@ -391,10 +357,8 @@ aside
 
 .block-pop-desc h4
 {
-    font-size: 2.8em;
     padding-top: 1em;
-    margin-block-start: 0;
-    margin-block-end: 0;
+    margin: 0;
 }
 
 .block-pop-desc .prix-nuit
@@ -407,7 +371,6 @@ aside
 
 .block-pop-desc .not-pop
 {
-    font-size: 2em;
     padding-top: 3.2em;
 }
 
@@ -423,11 +386,16 @@ aside
     padding: 0 3.8em 8.85em 3.8em;
 }
 
+#section-heb h3
+{
+    font-size: 1em;
+}
+
 .block-heb
 {
     margin-bottom: 2.35em;
     width: 100%;
-    height: 31em;
+    height: auto;
     border-radius: 65px;
     border: 2.5px #f2f2f2 solid;
     box-shadow: 10px 10px 20px #f2f2f2;
@@ -443,7 +411,6 @@ aside
 
 .block-heb h4
 {
-    font-size: 2.8em;
     padding: 0.6em 0 0 0.94em;
     margin-top: 0;
     margin-bottom: 0;
@@ -451,7 +418,6 @@ aside
 
 .block-heb .prix-nuit
 {
-    font-size: 2.3em;
     padding: 0.3em 0 0 1.1em;
     margin-top: 0;
     margin-bottom: 0;
@@ -464,16 +430,10 @@ aside
     margin-bottom: 0;
 }
 
-.block-heb .fas
-{
-    font-size: 2em;
-}
-
 .aff-plus
 {
     font-family: Raleway-ExtraBold, serif, Arial;
     color: #000000;
-    font-size: 1.75em;
     padding: 1.75em 0 0 1em;
     margin-top: 0;
     margin-bottom: 0;
@@ -508,7 +468,6 @@ aside
 
 .block-titre-h4
 {
-    font-size: 2.6em;
     position: relative;
     left: 0.01em;
     bottom: 3em;
