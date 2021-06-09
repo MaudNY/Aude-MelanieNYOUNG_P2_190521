@@ -291,43 +291,44 @@ td
 aside
 {
     padding: 0 0 0 0;
-    margin-bottom: 6em;
+    margin-bottom: 2.2em;
     background-color: #f2f2f2;
 }
 
 #aside-pop
 {
-    padding: 0 3.8em 5em 3.8em;
+    padding: 0 1.25em 1.75em 1.25em;
 }
 
 #titre-pop
 {
     display: flex;
     justify-content: space-between;
-    padding-top: 6.5em;
+    padding-top: 2.4em;
     padding-bottom: auto;
 }
 
 #titre-pop h3
 {
-    font-size: 1em;
+    font-size: 1.25em;
     padding-top: auto;
     padding-bottom: auto;
 }
 
 #titre-pop .fas
 {
+    font-size: 1.5em;
     padding-top: auto;
     padding-bottom: auto;
 }
 
 .block-pop
 {
-    margin-bottom: 1.75em;
+    margin-bottom: 0.5em;
     width: 100%;
-    height: 25em;
+    height: 9em;
     background-color: white;
-    border-radius: 65px;
+    border-radius: 25px;
     border: 2.5px #f2f2f2 solid;
     box-shadow: 10px 10px 20px #f2f2f2;
 }
@@ -336,8 +337,8 @@ aside
 {
     width: 43%;
     height: 94%;
-    border-radius: 65px 0 0 65px;
-    padding: 0.75em 0 0.75em 0.75em;
+    border-radius: 23px 0 0 23px;
+    padding: 0.25em 0 0 0.2em;
     float: left;
 }
 
@@ -360,7 +361,7 @@ aside
 
 .block-pop-desc .prix-nuit
 {
-    font-size: 2.3em;
+    font-size: 0.9em;
     padding: 0.6em 0 0 0;
     margin-top: 0;
     margin-bottom: 0;
@@ -368,7 +369,8 @@ aside
 
 .block-pop-desc .not-pop
 {
-    padding-top: 3.2em;
+    font-size: 0.75em;
+    padding-top: 3.25em;
 }
 
 .not-pop .fas
@@ -380,49 +382,52 @@ aside
 
 #section-heb
 {
-    padding: 0 3.8em 8.85em 3.8em;
+    padding: 0 1.25em 1.75em 1.25em;
 }
 
 #section-heb h3
 {
-    font-size: 1em;
+    font-size: 1.4em;
+    margin-bottom: 0.85em;
 }
 
 .block-heb
 {
-    margin-bottom: 2.35em;
     width: 100%;
-    height: auto;
-    border-radius: 65px;
-    border: 2.5px #f2f2f2 solid;
+    height: 12.25em;
+    border-radius: 25px;
+    border: 0.5px #f2f2f2 solid;
     box-shadow: 10px 10px 20px #f2f2f2;
+    margin-bottom: 0.8em;
 }
 
 .block-heb img
 {
     width: 98%;
-    height: 55%;
-    border-radius: 65px 65px 0 0;
-    margin: 0.5em 0.5em 0 0.5em;
+    height: 60%;
+    border-radius: 23px 23px 0 0;
+    padding: 0.25em 0 0 0.23em;
 }
 
 .block-heb h4
 {
-    padding: 0.6em 0 0 0.94em;
+    padding: 0.25em 0 0 0.94em;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .block-heb .prix-nuit
 {
-    padding: 0.3em 0 0 1.1em;
+    font-size: 0.9em;
+    padding: 0.25em 0 0 0.94em;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .not-heb
 {
-    padding: 0.9em 0 0 2.4em;
+    font-size: 0.75em;
+    padding: 0.5em 0 0 1.1em;
     margin-top: 0;
     margin-bottom: 0;
 }
