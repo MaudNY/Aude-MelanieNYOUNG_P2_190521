@@ -14,7 +14,7 @@
 
 /* Eléments génériques de la page */
 
-body, p, a, input
+body, a, input
 {
     font-family: Raleway-Regular, serif, Arial;
     margin: 0 0 0 0;
@@ -31,6 +31,11 @@ h1, h2, h3, h4, h5, .bold, .nom-filtre
 {
     font-family: Raleway-ExtraBold, serif, Arial;
     color: #000000;
+}
+
+p
+{
+    margin: 0;
 }
 
 h3
@@ -119,8 +124,6 @@ header
 {
     display: flex;
     justify-content: space-between;
-    width: auto;
-    height: auto;
 }
 
 .ancre-header
@@ -138,8 +141,6 @@ header
 
 #section-form
 {
-    width: auto;
-    height: auto;
     margin: 10.1em 0 2em 0;
     padding: 0 1.25em 0 1.25em;
 }
@@ -157,12 +158,11 @@ h1
 
 #block-form-complet
 {
-    width: 100%;
-    height: auto;
     margin: 0 0 2em 0;
     border: 1px#f2f2f2 solid;
     border-radius: 15px;
     display: flex;
+    flex-wrap: nowrap;
 }
 
 #block-form-complet .fas
@@ -172,8 +172,7 @@ h1
 
 #block-loc
 {
-    width: 15%;
-    height: auto;
+    width: 2.09em;
     background-color: #f2f2f2;
     border-radius: 15px 0 0 15px;
     text-align: center;
@@ -182,24 +181,12 @@ h1
 
 #block-form
 {
-    width: auto;
-    height: auto;
-}
-
-#block-form:nth-child(2)
-{
-    flex: 1;
-}
-
-#block-form input
-{
-    width: auto;
-    height: 100%;
     font-size: 1.15em;
     font-weight: bold;
     padding: 0 0 0 0.5em;
     border: none;
     outline: none;
+    flex: 1;
 }
 
 input::placeholder
@@ -212,8 +199,7 @@ input::placeholder
 
 #block-rech
 {
-    width: 15%;
-    height: 100%;
+    width: 3.1em;
     background-color: #0065FC;
     border-radius: 15px;
     text-align: center;
@@ -229,34 +215,39 @@ h2
 {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 0 1.1em 0;
 }
 
 .filtre
 {
-    min-width: fit-content;
-    height: auto;
-    margin: 0 1.2em 1em 0;
+    margin: 0 0.75em 1em 0;
     border: 2px #dfdddd solid;
     border-radius: 1000px;
     display: flex;
+    overflow: hidden;
 }
 
-.filtre .fas
+.filtre:hover
 {
-    position: relative;
-    right: 0.5em;
+    border: 2px #0065fc solid;
+}
+
+.nom-filtre p:hover
+{
+    color: #0065FC;
+}
+
+.icone-filtre
+{
     width: 2.75em;
-    height: auto;
     text-align: center;
-    background-color: #deebff;
+    padding: 0.85em 0.2em 0 0;
     border-radius: 1000px;
-    padding: 0.8em 0 0.2em 0;
+    background-color: #deebff;
 }
 
 .nom-filtre
 {
-    padding: 0.75em 0.5em 0.75em 0;
+    padding: 0.8em 0.8em 0.8em 0.6em;
 }
 
 table .fas
@@ -300,26 +291,25 @@ aside
     padding: 0 1.25em 1.75em 1.25em;
 }
 
-#titre-pop
+#flex-titre-pop
 {
     display: flex;
-    justify-content: space-between;
-    padding-top: 2.4em;
-    padding-bottom: auto;
+    padding: 2.4em 0 0 0;
+}
+
+#titre-pop
+{
+    flex: 1;
 }
 
 #titre-pop h3
 {
     font-size: 1.25em;
-    padding-top: auto;
-    padding-bottom: auto;
 }
 
-#titre-pop .fas
+#flex-titre-pop .fas
 {
     font-size: 1.5em;
-    padding-top: auto;
-    padding-bottom: auto;
 }
 
 .block-pop

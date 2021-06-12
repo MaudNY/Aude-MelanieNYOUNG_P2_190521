@@ -35,38 +35,36 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p id="sous-titre">En plein centre-ville ou en pleine nature</p>
 
-            <div id="block-form-complet">
-                <i class="fas fa-map-marker-alt black-icon" id="block-loc"></i>
-                <form method="POST" action="#" id="block-form">
-                    <input type="text" name="destination" placeholder="Où souhaitez-vous séjourner ?" />
-                </form>
+            <form method="POST" action="#" id ="block-form-complet">
+                <i id="block-loc" class="fas fa-map-marker-alt black-icon"></i>
+                <input id="block-form" type="text" name="destination" placeholder="Où souhaitez-vous séjourner ?" />
                 <a id="block-rech" href="#">
                     <i class="fas fa-search white-icon"></i>
                 </a>
-            </div>
+            </form>
 
             <h2>Filtres</h2>
 
             <div id="liste-filtres">
 
                 <a class="filtre" href="#">
-                    <i class="fas fa-money-bill-wave blue-icon" ></i>
-                    <p class="nom-filtre">Économique</p>
+                    <i class="fas fa-money-bill-wave icone-filtre blue-icon" ></i>
+                    <div class="nom-filtre"><p>Économique</p></div>
                 </a>
 
                 <a class="filtre" href="#">
-                    <i class="fas fa-child blue-icon" ></i>
-                    <p class="nom-filtre">Familial</p>
+                    <i class="fas fa-child icone-filtre blue-icon" ></i>
+                    <div class="nom-filtre"><p>Familial</p></div>
                 </a>
 
                 <a class="filtre" href="#">
-                    <i class="fas fa-heart blue-icon" ></i>
-                    <p class="nom-filtre">Romantique</p>
+                    <i class="fas fa-heart icone-filtre blue-icon" ></i>
+                    <div class="nom-filtre"><p>Romantique</p></div>
                 </a>
 
                 <a class="filtre" href="#">
-                    <i class="fas fa-dog blue-icon" ></i>
-                    <p class="nom-filtre">Animaux autorisés</p>
+                    <i class="fas fa-dog icone-filtre blue-icon" ></i>
+                    <div class="nom-filtre"><p>Animaux autorisés</p></div>
                 </a>
 
             </div>
@@ -86,8 +84,8 @@
 
             <div id="aside-pop">
                 
-                <div id="titre-pop">
-                    <h3>Les plus populaires</h3>
+                <div id="flex-titre-pop">
+                    <div id="titre-pop"><h3>Les plus populaires</h3></div>
                     <i class="fas fa-chart-line" style="color: black;"></i>
                 </div>
 
