@@ -468,13 +468,13 @@ footer
 
 h5
 {
-    font-size: 1.25em;
+    font-size: calc(0.5em + 1vw);
     margin: 0 0 1em 0;
 }
 
 .liste-pdp
 {
-    margin-right:calc(6em + 1.5vw);
+    margin-right: calc(4em + 1.5vw);
     margin-bottom: 2em;
 }
 
@@ -485,6 +485,6 @@ h5
 
 .liste-pdp li
 {
-    font-size: 1.15em;
+    font-size: calc(0.4em + 1vw);
     padding-bottom: 0.7em;
 }
