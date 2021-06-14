@@ -460,19 +460,21 @@ footer
 
 #pieddepage
 {
-    padding: 2.75em 1.75em 0 1.75em;
+    padding: 2.75em 1.75em 0 3em;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 h5
 {
-    font-size: 1.15em;
+    font-size: 1.25em;
     margin: 0 0 1em 0;
 }
 
 .liste-pdp
 {
+    margin-right:calc(6em + 1.5vw);
     margin-bottom: 2em;
 }
 
@@ -483,5 +485,6 @@ h5
 
 .liste-pdp li
 {
+    font-size: 1.15em;
     padding-bottom: 0.7em;
 }
