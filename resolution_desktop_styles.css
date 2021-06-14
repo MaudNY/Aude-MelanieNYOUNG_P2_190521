@@ -276,24 +276,37 @@ td
     padding-top: 0.25em;
 }
 
+/* SECTION HEBERGEMENTS + POPULAIRES */
+
+#block-héb-pop
+{
+    padding: 0 1.25em 0 1.25em;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 /* ASIDE LES PLUS POPULAIRES */
 
 aside
 {
+    max-width: 35%;
     padding: 0;
     margin-bottom: 2.2em;
     background-color: #f2f2f2;
+    border-radius: 20px;
 }
 
 #aside-pop
 {
-    padding: 0 1.25em 1.75em 1.25em;
+    padding-left: calc(0.25em + 1.5vw);
+    padding-right: calc(0.25em + 1.5vw);
+    padding-bottom: calc(1.75em + 1.5vw);
 }
 
 #flex-titre-pop
 {
     display: flex;
-    padding: 2.4em 0 0 0;
+    padding: 1.5em 0 0 0;
 }
 
 #titre-pop
@@ -303,7 +316,7 @@ aside
 
 #titre-pop h3
 {
-    font-size: 1.25em;
+    font-size: calc(0.7em + 1vw);
 }
 
 #flex-titre-pop .fas
@@ -314,9 +327,9 @@ aside
 #aside-pop a
 {
     max-width: 20.25em;
-    height: 8.3em;
+    height: calc(6em + 2vw);
     background-color: white;
-    border: 5.5px white solid;
+    border: calc(4px + 0.2vw) white solid;
     border-radius: 25px;
     margin-bottom: 0.7em;
     overflow: hidden;
@@ -332,7 +345,8 @@ aside
 
 .desc-pop
 {
-    padding: 0.75em 0 0 1em;
+    padding-top: calc(0.005em + 1vw);
+    padding-left: calc(0.0001em + 1vw);
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -340,20 +354,21 @@ aside
 
 .desc-pop-titre h4
 {
+    font-size: 0.85em;
     margin: 0;
 }
 
 .desc-pop-prix
 {
-    font-size: 0.9em;
-    padding-top: 0.5em;
+    font-size: 0.8em;
+    padding-top: 0.75em;
     flex: 1
 }
 
 .desc-pop-not
 {
-    font-size: 0.75em;
-    padding-bottom: 0.5em;
+    font-size: 0.6em;
+    padding-bottom: 1em;
 }
 
 /* SECTION HEBERGEMENTS A MARSEILLE */
@@ -362,6 +377,7 @@ aside
 {
     padding: 9em 1.25em 0 1.25em;
     margin: -9em 0 3.25em 0;
+    flex: 1;
 }
 
 #section-heb h3

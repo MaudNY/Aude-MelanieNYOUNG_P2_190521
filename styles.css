@@ -25,12 +25,12 @@ body, a, input
 body
 {
     box-sizing: border-box;
+    color: black;
 }
 
 h1, h2, h3, h4, h5, .bold, .nom-filtre
 {
     font-family: Raleway-ExtraBold, serif, Arial;
-    color: #000000;
 }
 
 p
@@ -228,11 +228,6 @@ h2
 {
     color: #0065fc;
     border: 2px #0065fc solid;
-}
-
-.nom-filtre p:hover
-{
-    color: #0065FC;
 }
 
 .icone-filtre
