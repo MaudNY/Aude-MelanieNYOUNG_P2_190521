@@ -311,8 +311,9 @@ aside
     max-width: 20.25em;
     height: 8.3em;
     background-color: white;
-    border: 5.5px white solid;
+    border: 5px white solid;
     border-radius: 25px;
+    box-shadow: 2.5px 2.5px 20px #cecdcd;
     margin-bottom: 0.7em;
     overflow: hidden;
     display: block;
