@@ -280,7 +280,11 @@ td
 
 #block-héb-pop
 {
-    padding: 0 1.25em 0 1.25em;
+    padding-top: 500em;
+    padding-right: 1.25em;
+    padding-bottom: 0;
+    padding-left: 1.25em;
+    margin-top: -500em;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -298,7 +302,7 @@ aside
 
 #aside-pop
 {
-    padding-top: calc(0.2em + 0.75vw);
+    padding-top: calc(1.75em + 0.75vw);
     padding-right: calc(0.2em + 1.5vw);
     padding-bottom: 0;
     padding-left: calc(0.2em + 1.5vw);
@@ -307,7 +311,7 @@ aside
 #flex-titre-pop
 {
     display: flex;
-    padding: 1.5em 0 0 0;
+    padding: 0;
 }
 
 #titre-pop
@@ -318,6 +322,7 @@ aside
 #titre-pop h3
 {
     font-size: calc(0.7em + 1vw);
+    padding: 0;
 }
 
 #flex-titre-pop .fas
@@ -377,24 +382,36 @@ aside
 
 #section-heb
 {
-    padding: 9em 1.25em 0 1.25em;
-    margin: -9em 0 3.25em 0;
+    padding : 2em 1.25em 0 1.25em;
+    margin: 0 1em 3.25em 0;
+    background-color: #f2f2f2;
+    border-radius: 20px;
     flex: 1;
 }
 
 #section-heb h3
 {
-    font-size: 1.4em;
-    margin-bottom: 0.85em;
+    font-size: calc(0.7em + 1vw);
+    padding: 0;
+}
+
+#liste-block-heb
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .block-heb
 {
-    height: 12.25em;
+    
+    width: 10.5em;
+    height: calc(9em + 2vw);
+    background-color: white;
     border-radius: 25px;
     border: 5px white solid;
-    box-shadow: 10px 10px 20px #f2f2f2;
-    margin-bottom: 0.8em;
+    box-shadow: 2.5px 2.5px 20px #cecdcd;
+    margin: 0 0 0.8em 0;
     overflow: hidden;
 }
 
