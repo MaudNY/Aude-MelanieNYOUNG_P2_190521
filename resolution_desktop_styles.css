@@ -196,15 +196,36 @@ input::placeholder
 
 #block-rech
 {
-    width: 3.1em;
+    width: auto;
+    height: 3em;
+    line-height: 3em;
     background-color: #0065FC;
     border-radius: 15px;
     text-align: center;
-    padding: 0.75em 0 0.75em 0;
+    padding: 0 1em 0 1em;
+}
+
+#block-rech .fas
+{
+    display: none;
+}
+
+#block-rech #bouton-rech
+{
+    display: table;
+    font-family: Raleway-Regular, serif, Arial;
+    font-weight: bold;
+    color: white;
+}
+
+#block-filtres
+{
+    display: flex;
 }
 
 h2
 {
+    height: auto;
     font-size: 1.2em;
 }
 
