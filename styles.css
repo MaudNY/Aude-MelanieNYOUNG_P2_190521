@@ -441,11 +441,19 @@ aside
     border-radius: 20px 20px 0 0;
 }
 
-.block-act h4
+.block-titre-h4
 {
-    height: 3em;
+    display: table;
+    width: 100%;
+    min-height: 3em;
     margin: 0;
-    padding: 1em 0 0 1em;
+}
+
+.block-titre-h4 h4
+{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 0 0 1em;
 }
 
 /* PIED-DE-PAGE */
