@@ -218,9 +218,12 @@ input::placeholder
     color: white;
 }
 
-#block-filtres
+@media screen and (min-width: 880px)
 {
-    display: flex;
+    #block-filtres
+    {
+        display: flex;
+    }
 }
 
 h2
@@ -480,19 +483,6 @@ aside
 
 /* SECTION ACTIVITES A MARSEILLE */
 
-#section-act
-{
-    padding: 9em 1.25em 1.75em 1.25em;
-    margin-top: -9em;
-}
-
-#section-act h3
-{
-    font-size: 1.4em;
-    margin-bottom: 1.2em;
-}
-
-
 #flex-act
 {
     min-height: 23.75em;
@@ -520,7 +510,7 @@ aside
 
 #act-col-2 .block-act, #act-col-4 .block-act
 {
-    height: 11em;
+    max-height: 11em;
 }
 
 .block-act
@@ -540,15 +530,9 @@ aside
 
 /* PIED-DE-PAGE */
 
-footer
-{
-    background-color: #f2f2f2;
-}
-
 #pieddepage
 {
-    padding: 2.75em 1.75em 0 3em;
-    display: flex;
+    padding-left: 3em;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -556,22 +540,14 @@ footer
 h5
 {
     font-size: calc(0.5em + 1vw);
-    margin: 0 0 1em 0;
 }
 
 .liste-pdp
 {
-    margin-right: calc(4em + 1.5vw);
-    margin-bottom: 2em;
-}
-
-.liste-pdp ul
-{
-    margin: 0;
+    min-width: 25%;
 }
 
 .liste-pdp li
 {
     font-size: calc(0.4em + 1vw);
-    padding-bottom: 0.7em;
 }
