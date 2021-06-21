@@ -231,7 +231,11 @@ h2
     transition: border 0.2s ease-in-out;
     border-radius: 1000px;
     display: flex;
-    overflow: hidden;
+}
+
+.filtre .fas
+{
+    transform: scale(1.1);
 }
 
 .filtre:hover
@@ -324,7 +328,6 @@ aside
 
 #aside-pop a
 {
-    max-width: 20.25em;
     height: 8.3em;
     background-color: white;
     border: 5px white solid;
@@ -481,7 +484,7 @@ footer
 
 #pieddepage
 {
-    padding: 2.75em 1.75em 0 1.75em;
+    padding: 2.75em 1.75em 2em 1.75em;
     display: flex;
     flex-direction: column;
 }
@@ -490,11 +493,6 @@ h5
 {
     font-size: 1.15em;
     margin: 0 0 1em 0;
-}
-
-.liste-pdp
-{
-    margin-bottom: 2em;
 }
 
 .liste-pdp ul

@@ -1,81 +1,8 @@
-@font-face { /* Police générique du site Reservia */
-    font-family: 'Raleway-Regular';
-    src: url('police/Raleway-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face { /* Police des titres du site Reservia */
-    font-family: 'Raleway-ExtraBold';
-    src: url('police/Raleway-ExtraBold.ttf');
-    font-weight: bold;
-    font-style: normal;
-}
-
 /* Eléments génériques de la page */
-
-body, a, input
-{
-    font-family: Raleway-Regular, serif, Arial;
-    margin: 0 0 0 0;
-    color: black;
-    text-decoration-line: none;
-}
-
-body
-{
-    box-sizing: border-box;
-}
-
-h1, h2, h3, h4, h5, .bold, .nom-filtre
-{
-    font-family: Raleway-ExtraBold, serif, Arial;
-    color: #000000;
-}
-
-p
-{
-    margin: 0;
-}
 
 h3
 {
-    font-size: 3em;
-    margin-block-start: 0;
-    margin-block-end: 1.5em;
-}
-
-ul
-{
-    font-family: Raleway-Regular, serif, Arial;
-    list-style-type: none;
-    text-decoration-line: none;
-    padding-left: 0px;
-}
-
-.cover
-{
-    object-fit: cover;
-}
-
-.blue-icon
-{
-    color: #0065FC;
-}
-
-.grey-icon
-{
-    color: #e9e6e6;
-}
-
-.black-icon
-{
-    color: black;
-}
-
-.white-icon
-{
-    color: white;
+    margin-bottom: 1.5em;
 }
 
 /* EN-TÊTE */
@@ -133,6 +60,7 @@ ul
     height: 3em;
     line-height: 3em;
     padding: 0 1em 0 1em;
+    border-radius: 0 15px 15px 0;
 }
 
 #block-rech .fas
@@ -341,7 +269,6 @@ aside
 
 #pieddepage
 {
-    padding-left: 3em;
     flex-direction: row;
     justify-content: space-between;
 }
