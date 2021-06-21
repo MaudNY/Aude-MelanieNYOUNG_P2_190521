@@ -7,7 +7,46 @@ h3
 
 /* EN-TÊTE */
 
+header
+{
+    padding-top: 0;
+}
 
+#flex-header
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#logo
+{
+    min-width: 0%;
+    padding: 2.5em 0 0 1.25em;
+    order: 1;
+}
+
+#bouton-insc
+{
+    padding: 2.5em 1.25em 0 0;
+    font-size: 1em;
+    font-family: Raleway-ExtraBold, serif, Arial;
+    color: #0065FC;
+    text-align: right;
+    order: 3;
+}
+
+#bouton-héb, #bouton-act
+{
+    min-width: 0%;
+    color: black;
+    margin: 0;
+    padding: 0 0 0.7em 0;
+    text-align: center;
+    border-top: 0.2em #f2f2f2 solid;
+    border-bottom: none;
+    order: 2;
+}
 
 /* SECTION FORMULAIRE */
 

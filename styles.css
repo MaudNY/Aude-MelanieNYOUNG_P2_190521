@@ -105,8 +105,6 @@ header
 
 #bouton-insc
 {
-    min-width: 20%;
-    min-height: 20%;
     padding: 0 1.25em 1.5em 0;
     font-size: 1em;
     font-family: Raleway-ExtraBold, serif, Arial;
@@ -117,7 +115,6 @@ header
 #bouton-héb, #bouton-act
 {
     min-width: 50%;
-    max-width: 50%;
     color: black;
     margin: 0;
     padding: 0 0 0.7em 0;
