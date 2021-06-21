@@ -132,6 +132,11 @@ header
     border-bottom: 0.2em #f2f2f2 solid;
 }
 
+#block-header-768px
+{
+    display: none;
+}
+
 /* SECTION FORMULAIRE */
 
 #section-form
@@ -233,6 +238,11 @@ h2
 {
     color: #0065fc;
     border: 2px #0065fc solid;
+}
+
+.nom-filtre p:hover
+{
+    color: #0065FC;
 }
 
 .icone-filtre

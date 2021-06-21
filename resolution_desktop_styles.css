@@ -80,29 +80,27 @@ ul
 
 /* EN-TÊTE */
 
-header
+#block-header-375px
 {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0em;
-    padding: 1.65em 0 0 0;
-    background-color: white;
-    z-index: 9999;
+    display: none;
 }
 
-#header-line1
+#block-header-768px
 {
     display: flex;
-    justify-content: space-between;
-    padding: 0 1.5em 1.73em 1.5em;
-    width: auto;
-    height: auto;
+    justify-content: flex-end;
+}
+
+#header-line1:disabled
+{
+    padding: 0;
 }
 
 #logo
 {
-    min-width: 20%;
-    min-height: 20%;
+    min-width: 15%;
+    max-width: 10%;
+    flex: 1;
 }
 
 #bouton-insc
@@ -117,12 +115,6 @@ header
     margin-bottom: auto;
 }
 
-#header-line2
-{
-    display: flex;
-    justify-content: space-between;
-}
-
 .ancre-header
 {
     color: black;
@@ -135,73 +127,11 @@ header
 
 /* SECTION FORMULAIRE */
 
-#section-form
-{
-    margin: 2em 0 2em 0;
-    padding: 0 1.25em 0 1.25em;
-}
-
-h1
-{
-    font-size: 1.4em;
-    margin: 0 0 0.65em 0;
-}
-
-#sous-titre
-{
-    margin: 0 0 2.2em 0;
-}
-
-#block-form-complet
-{
-    max-width: 23em;
-    margin: 0 0 2em 0;
-    border: 1px#f2f2f2 solid;
-    border-radius: 15px;
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-#block-form-complet .fas
-{
-    font-size: 1.5em;
-}
-
-#block-loc
-{
-    width: 2.09em;
-    background-color: #f2f2f2;
-    border-radius: 15px 0 0 15px;
-    text-align: center;
-    padding: 0.5em 0 0.5em 0;
-}
-
-#block-form
-{
-    font-size: 1.15em;
-    font-weight: bold;
-    padding: 0 0 0 0.5em;
-    border: none;
-    outline: none;
-    flex: 1;
-}
-
-input::placeholder
-{
-    font-size: 0.75em;
-    font-weight: normal;
-    font-family: Raleway-Regular, serif, Arial;
-    color: #a8a8a8;
-}
-
 #block-rech
 {
     width: auto;
     height: 3em;
     line-height: 3em;
-    background-color: #0065FC;
-    border-radius: 15px;
-    text-align: center;
     padding: 0 1em 0 1em;
 }
 
@@ -230,74 +160,6 @@ h2
 {
     height: auto;
     font-size: 1.2em;
-}
-
-#liste-filtres
-{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.filtre
-{
-    margin: 0 0.75em 1em 0;
-    border: 2px #dfdddd solid;
-    transition: border 0.2s ease-in-out;
-    border-radius: 1000px;
-    display: flex;
-    overflow: hidden;
-}
-
-.filtre:hover
-{
-    color: #0065fc;
-    border: 2px #0065fc solid;
-}
-
-.nom-filtre p:hover
-{
-    color: #0065FC;
-}
-
-.icone-filtre
-{
-    width: 2.75em;
-    text-align: center;
-    padding: 0.85em 0.2em 0 0;
-    border-radius: 1000px;
-    background-color: #deebff;
-}
-
-.nom-filtre
-{
-    padding: 0.8em 0.8em 0.8em 0.6em;
-}
-
-table .fas
-{
-    font-size: 0.75em;
-    width: auto;
-    height: auto;
-    border: 1px #dfdddd solid;
-    border-radius: 1000px;
-    text-align: center;
-    padding: 0.4em 0.75em 0.4em 0.75em;
-}
-
-table p
-{
-    font-size: 0.92em;
-    padding-left: 0.75em;
-}
-
-td
-{
-    vertical-align: top;
-}
-
-#col-2
-{
-    padding-top: 0.25em;
 }
 
 /* SECTION HEBERGEMENTS + POPULAIRES */
