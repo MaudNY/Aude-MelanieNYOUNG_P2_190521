@@ -7,50 +7,7 @@ h3
 
 /* EN-TÊTE */
 
-#block-header-375px
-{
-    display: none;
-}
 
-#block-header-768px
-{
-    display: flex;
-    justify-content: flex-end;
-}
-
-#header-line1:disabled
-{
-    padding: 0;
-}
-
-#logo
-{
-    min-width: 15%;
-    max-width: 10%;
-    flex: 1;
-}
-
-#bouton-insc
-{
-    min-width: 20%;
-    min-height: 20%;
-    font-size: 1em;
-    font-family: Raleway-ExtraBold, serif, Arial;
-    color: #0065FC;
-    text-align: right;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.ancre-header
-{
-    color: black;
-    width: 50%;
-    margin: 0;
-    padding: 0 0 0.7em 0;
-    text-align: center;
-    border-bottom: 0.2em #f2f2f2 solid;
-}
 
 /* SECTION FORMULAIRE */
 
@@ -271,6 +228,7 @@ aside
 {
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 2em;
 }
 
 h5
@@ -281,6 +239,7 @@ h5
 .liste-pdp
 {
     min-width: 25%;
+    margin: 0;
 }
 
 .liste-pdp li
