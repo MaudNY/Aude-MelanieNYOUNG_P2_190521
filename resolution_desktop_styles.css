@@ -9,7 +9,9 @@ h3
 
 header
 {
+    position: initial;
     padding-top: 0;
+    z-index: 0;
 }
 
 #flex-header
@@ -21,31 +23,41 @@ header
 
 #logo
 {
-    min-width: 0%;
+    min-width: 50%;
     padding: 2.5em 0 0 1.25em;
+    flex: 1;
     order: 1;
 }
 
 #bouton-insc
 {
-    padding: 2.5em 1.25em 0 0;
+    padding: 0 1.25em 0 0;
     font-size: 1em;
     font-family: Raleway-ExtraBold, serif, Arial;
     color: #0065FC;
-    text-align: right;
+    text-align: center;
+    flex: 2;
     order: 3;
 }
 
 #bouton-héb, #bouton-act
 {
-    min-width: 0%;
     color: black;
     margin: 0;
-    padding: 0 0 0.7em 0;
+    padding: 1.95em 0 2.3em 0;
     text-align: center;
-    border-top: 0.2em #f2f2f2 solid;
+    border-top: 0.25em #f2f2f2 solid;
     border-bottom: none;
+    flex: 2;
     order: 2;
+}
+
+@media screen and (min-width: 1140px)
+{
+    #bouton-héb, #bouton-act, #bouton-insc
+    {
+        max-width: 10%;
+    }
 }
 
 /* SECTION FORMULAIRE */
