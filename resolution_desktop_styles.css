@@ -1,5 +1,14 @@
 /* Eléments génériques de la page */
 
+@media screen and (min-width: 1140px)
+{
+    #section-form, #section-act
+    {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+    }
+}
+
 h3
 {
     margin-bottom: 1.5em;
@@ -24,9 +33,17 @@ header
 #logo
 {
     min-width: 50%;
-    padding: 2.5em 0 0 1.25em;
+    padding: 1.5em 0 0 1.25em;
     flex: 1;
     order: 1;
+}
+
+@media screen and (min-width: 1140px)
+{
+    #logo
+    {
+        padding-left: 2.5em;
+    }
 }
 
 #bouton-insc
@@ -110,6 +127,15 @@ h2
     margin-bottom: 3.25em;
     display: flex;
     flex-direction: row-reverse;
+}
+
+@media screen and (min-width: 1140px)
+{
+    #block-héb-pop
+    {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+    }
 }
 
 /* ASIDE LES PLUS POPULAIRES */
@@ -280,6 +306,15 @@ aside
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 2em;
+}
+
+@media screen and (min-width: 1140px)
+{
+    #pieddepage
+    {
+        padding-right: 2.5em;
+        padding-left: 2.5em;
+    }
 }
 
 h5
