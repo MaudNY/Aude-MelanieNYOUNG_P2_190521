@@ -18,9 +18,9 @@ h3
 
 header
 {
-    position: initial;
-    padding-top: 0;
-    z-index: 0;
+position: initial;
+padding-top: 0;
+z-index: 0;
 }
 
 #flex-header
@@ -63,10 +63,20 @@ header
     margin: 0;
     padding: 1.95em 0 2.3em 0;
     text-align: center;
-    border-top: 0.25em #f2f2f2 solid;
     border-bottom: none;
     flex: 2;
     order: 2;
+}
+
+#bouton-héb:hover, #bouton-act:hover
+{
+    border-bottom: none;
+    border-top: 0.2em #0065FC solid;
+}
+
+#bouton-héb a:hover, #bouton-act a:hover
+{
+    color: #0065FC;
 }
 
 @media screen and (min-width: 1140px)

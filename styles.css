@@ -122,6 +122,16 @@ header
     border-bottom: 0.2em #f2f2f2 solid;
 }
 
+#bouton-héb:hover, #bouton-act:hover
+{
+    border-bottom: 0.2em #0065FC solid;
+}
+
+#bouton-héb a:hover, #bouton-act a:hover
+{
+    color: #0065FC;
+}
+
 /* SECTION FORMULAIRE */
 
 #section-form
