@@ -174,12 +174,12 @@ aside
 
 #flex-titre-pop .fas
 {
-    font-size: calc(1em + 1vw);
+    font-size: calc(1em + 0.75vw);
 }
 
 #titre-pop h3
 {
-    font-size: calc(0.7em + 1vw);
+    font-size: calc(0.7em + 0.75vw);
     padding: 0;
 }
 
@@ -229,7 +229,7 @@ aside
 
 #section-heb h3
 {
-    font-size: calc(0.7em + 1vw);
+    font-size: calc(0.7em + 0.75vw);
     padding: 0;
 }
 
@@ -278,7 +278,7 @@ aside
 
 #section-act h3
 {
-    font-size: calc(0.7em + 1vw);
+    font-size: calc(0.7em + 0.75vw);
 }
 
 #flex-act
