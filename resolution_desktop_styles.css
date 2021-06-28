@@ -172,6 +172,11 @@ aside
     padding: 0;
 }
 
+#flex-titre-pop .fas
+{
+    font-size: calc(1em + 1vw);
+}
+
 #titre-pop h3
 {
     font-size: calc(0.7em + 1vw);
@@ -264,6 +269,17 @@ aside
 }
 
 /* SECTION ACTIVITES A MARSEILLE */
+
+#section-act
+{
+    padding-top: 2em;
+    margin-top: -2em;
+}
+
+#section-act h3
+{
+    font-size: calc(0.7em + 1vw);
+}
 
 #flex-act
 {
