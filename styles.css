@@ -170,7 +170,7 @@ h1
     display: block;
     width: 2.09em;
     background-color: #f2f2f2;
-    border-radius: 15px 0 0 15px;
+    border-radius: 13px 0 0 13px;
     text-align: center;
     padding: 0.5em 0 0.5em 0;
 }
@@ -370,8 +370,8 @@ aside
 
 #section-heb
 {
-    padding: 9em 1.25em 0 1.25em;
-    margin: -9em 0 3.25em 0;
+    padding: 10em 1.25em 0 1.25em;
+    margin: -10em 0 3.25em 0;
 }
 
 #section-heb h3
@@ -429,8 +429,8 @@ aside
 
 #section-act
 {
-    padding: 9em 1.25em 1.75em 1.25em;
-    margin-top: -9em;
+    padding: 10em 1.25em 1.75em 1.25em;
+    margin-top: -10em;
 }
 
 #section-act h3
