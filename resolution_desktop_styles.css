@@ -218,18 +218,18 @@ aside
 
 .desc-pop-titre h4
 {
-    font-size: calc(0.75em + 0.25vw);
+    font-size: 14px;
 }
 
 .desc-pop-prix
 {
-    font-size: calc(0.7em + 0.15vw);
+    font-size: 12px;
     padding-top: 0.75em;
 }
 
 .desc-pop-not
 {
-    font-size: calc(0.6em + 0.2vw);
+    font-size: 12px;
     padding-bottom: 1em;
 }
 
@@ -291,7 +291,17 @@ aside
 
 .block-heb h4
 {
-    font-size: calc(0.7em + 0.3vw);
+    font-size: 14px;
+}
+
+.block-heb .prix-nuit
+{
+    font-size: 14px;
+}
+
+.not-heb
+{
+    font-size: 12px;
 }
 
 .aff-plus
