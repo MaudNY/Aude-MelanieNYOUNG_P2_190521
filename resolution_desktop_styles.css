@@ -17,7 +17,6 @@
 
 h3
 {
-    font-size: 24px;
     margin-bottom: 1.5em;
 }
 
@@ -198,7 +197,7 @@ aside
 {
         #titre-pop h3
     {
-        font-size: 24px;
+        font-size: 22px;
         padding: 0;
         margin-bottom: 1.25em;
     }
@@ -261,7 +260,7 @@ aside
 {
     #section-heb h3
     {
-        font-size: 24px;
+        font-size: 22px;
         padding: 0;
     }
 }
@@ -315,7 +314,7 @@ aside
 {
     #section-act h3
     {
-        font-size: 24px;
+        font-size: 22px;
     }
 }
 
@@ -390,7 +389,7 @@ aside
 
 h5
 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .liste-pdp
@@ -401,5 +400,5 @@ h5
 
 .liste-pdp li
 {
-    font-size: 16px;
+    font-size: 14px;
 }
