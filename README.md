@@ -12,6 +12,8 @@
 4. Right click on ` index.html `, then click on ` Open with Live Server `
 5. Make sure to open another terminal before either staging, commiting or pushing your potential updates ;)
 
+*This digital project is mobile, tablet and laptop friendly* 🤩
+
 <h2>Author</h2>
 
 Aude-Mélanie NYOUNG - 2021.
